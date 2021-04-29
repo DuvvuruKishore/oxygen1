@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "proxy": "http://localhost:4000",
   "scripts": {
-    "start": "nodemon index"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +16,6 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "git": "^0.1.3",
-    "mongoose": "^5.12.2",
-    "nodemon": "^2.0.7"
+    "mongoose": "^5.12.2"
   }
 }
